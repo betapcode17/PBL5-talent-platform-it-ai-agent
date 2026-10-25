@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Environment variables & secrets (KHÔNG commit API key, MongoDB URI)
+.env
+.env.*
+!.env.example
+*.env
+
+# Temporary / Uploads files
+uploads/
+temp/
+tmp/
+*.tmp
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor folders
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Coverage / Test output
+coverage/
+.nyc_output/
